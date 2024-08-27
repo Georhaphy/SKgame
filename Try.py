@@ -135,6 +135,7 @@ if st.button('**ประเมินความเสี่ยง**'):
            st.session_state['ans'] = 'ผู้ป่วยมีความเสี่ยงที่จะเสียเลือด ควรจองเเลือด 2 U ขึ้นไป'
            #st.write(f":red[ผู้ป่วยมีความเสี่ยงที่จะเสียเลือด ควรจองเเลือด 2 U ขึ้นไป ค่าความเชื่อมั่น {k[0][1]*100}%]")
 
+st.write(st.session_state['ans'])
 
 if  st.session_state['button'] ==  ''  or  st.session_state['quiz'] == ''  or   st.session_state['ans'] == '':
     
