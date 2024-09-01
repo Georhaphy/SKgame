@@ -20,8 +20,6 @@ background_image = """
     background-image: url("https://img2.pic.in.th/pic/smsk-1.jpg");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;
-    background-size: cover; 
-    opacity: 0.3;
     background-repeat: no-repeat;
 }
 </style>
