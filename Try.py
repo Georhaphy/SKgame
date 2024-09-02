@@ -17,7 +17,7 @@ loaded_model = pickle.load(open(filename, "rb"))
 background_image = """
 <style>
 [data-testid="stAppViewContainer"] > .main {
-    background-image: url("https://img5.pic.in.th/file/secure-sv1/smsk-1.jpg");
+    background-image: url("https://img5.pic.in.th/file/secure-sv1/smsk-1e26f337bb6ec6813.jpg");
     background-size: 100vw 100vh;  # This sets the size to cover 100% of the viewport width and height
     background-position: center;
     background-repeat: no-repeat;
